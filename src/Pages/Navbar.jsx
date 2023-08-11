@@ -4,10 +4,10 @@ import React from 'react'
 const Navbar = () => {
   return (
     
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-light bg-light ">
 
-  <div className="container-fluid">
-
+  <div className="container-fluid animate__animated animate__fadeInDown">
+    
     <button
       className="navbar-toggler"
       type="button"
@@ -17,13 +17,13 @@ const Navbar = () => {
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <i className="fas fa-bars"></i>
+      <i className="fas fa-bars  "></i>
     </button>
-
+    
    
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
     
-      <a className="navbar-brand mt-2 mt-lg-0" href="#">
+      <a className="navbar-brand mt-2 mt-lg-0 " href="#">
         <img
           src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
           height="15"
