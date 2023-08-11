@@ -13,6 +13,8 @@ const Layout = () => {
     }, 5000); // Adjust the delay as needed
   }, []);
   
+  const gifUrl = `/Images/TEST1.gif?timestamp=${Date.now()}`; // Append a timestamp query parameter
+
   return (
     <div className="layout">
       {loading ? (
@@ -20,7 +22,7 @@ const Layout = () => {
        <div class="logo">
        
     <div className="container loader" style={{ paddingTop: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-         <img src="/Images/TEST1.gif" class="logo1"alt="" />
+         <img src={gifUrl} class="logo1" alt="" />
          </div>
        </div>
      </div>
