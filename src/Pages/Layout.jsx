@@ -13,7 +13,7 @@ const Layout = () => {
     }, 2000); // Adjust the delay as needed
   }, []);
   
-  const gifUrl = `/Images/logo2.gif?timestamp=${Date.now()}`; // Append a timestamp query parameter
+  const gifUrl = `/Images/logo4.gif?timestamp=${Date.now()}`; // Append a timestamp query parameter
 
   return (
     <div className="layout">
