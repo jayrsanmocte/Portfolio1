@@ -17,8 +17,7 @@ padding-top: 10%;
 font-weight: bold;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 70px;
-color: #ccd7f7
-;
+color: #ccd7f7;
 }
 .hero-text1{
  
@@ -29,10 +28,17 @@ color: #ccd7f7
   ;
   }
 
+  .hero-text3{
+   
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #ccd7f7;
+    }
+
 
 .description {
-  color: #ccd7f7
-  ;
+  color:#64fedb;
  font-size: large;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -117,4 +123,17 @@ color:#64fedb;
   border-color: #64fedb;
   width: 30%;
   height: 20%;
+}
+
+.imageabout{
+  width: 40%;
+  height: 25%;
+}
+
+.line {
+  width: 70%;
+  height: 1px;
+  background-color: #333; /* Line color */
+
+
 }
