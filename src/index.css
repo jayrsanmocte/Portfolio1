@@ -1,11 +1,21 @@
+:root{
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  overflow-x: hidden;
+}
+
 .content {
   background-color: #0a192f;
+  margin-bottom: 30%;
 }
 
 .hero-text{
 padding-top: 10%;
 font-weight: bold;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 70px;
 color: #ccd7f7
 ;
@@ -99,4 +109,12 @@ color:#64fedb;
 .logo1 {
 
   width: 25%;
+}
+
+.contact-button {
+  color: #64fedb;
+  background-color: #0a192f;
+  border-color: #64fedb;
+  width: 30%;
+  height: 20%;
 }
