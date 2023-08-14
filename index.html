@@ -21,17 +21,24 @@
       rel="stylesheet"
       />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div id="root"></div>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <!-- MDB -->
         <script
         type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
         ></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            AOS.init();
+          });
+        </script>
+
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
