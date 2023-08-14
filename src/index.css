@@ -128,7 +128,23 @@ color:#64fedb;
 .imageabout{
   width: 40%;
   height: 25%;
+  box-shadow: 0 10px 30px -5px #64fedb;
+  display: block;
+  position: relative;
+  border-radius:50px;
+  background-color:#64fedb ;
+
 }
+
+
+.imageabout:hover {
+  box-shadow: 0 10px 30px -5px white;
+  background-color:white ;
+}
+
+
+
+
 
 .line {
   width: 70%;
@@ -145,3 +161,22 @@ color:#64fedb;
 }
 
 /* footer */
+
+.line2{
+  
+    width: 1px;
+    height: 70px;
+}
+
+.footer2 {
+  position: fixed;
+  bottom: 20px;
+  margin-left: 50px;
+
+}
+
+#icons {
+  width: 50%;
+  height: 50%;
+}
+

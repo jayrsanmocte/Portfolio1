@@ -53,8 +53,10 @@ const About = () => {
                         </div>
                 </div>
                  
-                <div className="col ">
-                        <img src="/Images/me.avif" className="imageabout" alt="" />
+                <div className="col  animate__animated animate__fadeIn animate__infinite animate__slower">
+                        <img src="/Images/me.avif" className="imageabout " alt="" />
+                       
+                    
                     </div>
         </div>
       

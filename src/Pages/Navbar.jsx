@@ -4,9 +4,10 @@ import React from 'react'
 const Navbar = () => {
   return (
     
+    <div data-aos="fade-down">
 <nav className="navbar navbar-expand-lg ">
 
-  <div className="container-fluid animate__animated animate__fadeInDown">
+  <div className="container-fluid">
     
     <button
       className="navbar-toggler"
@@ -120,7 +121,7 @@ const Navbar = () => {
   </div>
  
 </nav>
-
+</div>
   )
 }
 

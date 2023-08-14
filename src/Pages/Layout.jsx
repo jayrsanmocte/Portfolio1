@@ -16,6 +16,7 @@ const Layout = () => {
   const gifUrl = `/Images/logo4.gif?timestamp=${Date.now()}`; // Append a timestamp query parameter
 
   return (
+    
     <div className="layout">
       {loading ? (
        <div class="center-container">
