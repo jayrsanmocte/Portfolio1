@@ -1,5 +1,9 @@
 import React from 'react';
 import About from './About';
+import Somethings from './Somethings';
+
+
+
 
 const Home = () => {
   const handleContactButtonClick = () => {
@@ -40,6 +44,8 @@ const Home = () => {
         </div>
       </div>
       <About />
+
+      <Somethings />
     </>
   );
 };
