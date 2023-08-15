@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </div>
       <About />
-
+      <div className="paddings"></div>
       <Somethings />
     </>
   );

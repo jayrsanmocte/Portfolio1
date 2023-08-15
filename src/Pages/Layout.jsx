@@ -10,7 +10,7 @@ const Layout = () => {
     // Simulate a loading delay
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the delay as needed
+    }, 1900); // Adjust the delay as needed
   }, []);
   
   const gifUrl = `/Images/logo4.gif?timestamp=${Date.now()}`; // Append a timestamp query parameter
