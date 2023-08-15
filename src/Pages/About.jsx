@@ -53,7 +53,7 @@ const About = () => {
                         </div>
                 </div>
                  
-                <div className="col  animate__animated animate__fadeIn animate__infinite animate__slower">
+                <div className="col  " data-aos="zoom-in-up">
                         <img src="/Images/me.avif" className="imageabout " alt="" />
                        
                     

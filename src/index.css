@@ -75,6 +75,7 @@ color: #ccd7f7;
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid #2d2e32;
+  box-shadow: 0 10px 30px -5px #0cc79b;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   position: relative;
   transition: all 1s ease-in-out;
@@ -93,6 +94,12 @@ color: #ccd7f7;
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+}
+
+
+.hero-img:hover {
+  box-shadow: 0 10px 30px -5px #0ed0af;
+  box-shadow: 0 10px 30px -5px #4744e4;
 }
 
 .layout {
