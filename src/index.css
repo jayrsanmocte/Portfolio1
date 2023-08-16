@@ -101,6 +101,34 @@ color: #ccd7f7;
   box-shadow: 0 10px 30px -5px #0ed0af;
   box-shadow: 0 10px 30px -5px #4744e4;
 }
+@media (max-width: 1024px) {
+  .hero-img {
+    width: 100%;
+  height: 350px;
+  margin-top: 10%;
+  }
+} 
+@media (max-width: 768px) {
+  .hero-img {
+    width: 100%;
+  height: 350px;
+  margin-top: 10%;
+  }
+} 
+@media (max-width: 425px) {
+  .hero-img {
+    width: 100%;
+  height: 350px;
+  margin-top: 30%;
+  }
+} 
+@media (max-width: 375px) {
+  .hero-img {
+    width: 100%;
+  height: 350px;
+  margin-top: 40%;
+  }
+} 
 
 .layout {
   background-color: #0a192f;
@@ -143,14 +171,24 @@ color:#64fedb;
 
 }
 
+@media (max-width: 425px) {
+  .imageabout {
+    display: none;
+  }
+} 
+@media (max-width: 375px) {
+  .imageabout {
+      display: none;
+      transform: translatex(-100%);
+  }
+} 
+
 
 .imageabout:hover {
   box-shadow: 0 10px 30px -5px white;
   background-color:white ;
   cursor: pointer;
 }
-
-
 
 
 
@@ -245,6 +283,40 @@ color:#64fedb;
     border-radius: 10px;
   }
   
+    
+    @media (max-width: 1024px) {
+    .line2 {
+        height: 60%;
+    }
+  } 
+
+  @media (max-width: 425px) {
+    .line2 {
+      display: none;
+    }
+  } 
+  @media (max-width: 375px) {
+    .line2 {
+        display: none;
+        transform: translatex(-100%);
+    }
+  } 
+     /* @media (min-width: 768px) {
+    .line2 {
+        height: 60%;
+    }
+} */
+/* @media (min-width: 425px) {
+  .line2 {
+      height: 60%;
+      width: 100%;
+  }
+}  */
+  
+  
+  
+  
+
   .image-overlay {
     position: absolute;
     top: 0;
@@ -253,12 +325,12 @@ color:#64fedb;
     height: 100%;
     background-color: rgba(4, 148, 141, 0.5); /* Transparent blue background color */
     z-index: 1;
-    pointer-events: none; /* Allow clicks to go through the overlay */
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    pointer-events: none; 
+    transition: background-color 0.s ease; 
   }
   
   .scrollable-image:hover .image-overlay {
-    background-color: transparent; /* Remove the background color on hover */
+    background-color: transparent; 
   }
 
 .description3 {
@@ -276,4 +348,8 @@ color:#64fedb;
 }
 .paddings {
   padding-bottom: 11%;
+}
+
+.padder {
+  padding-top :10%
 }
