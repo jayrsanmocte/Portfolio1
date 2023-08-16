@@ -76,7 +76,7 @@ const Somethings = () => {
              <div className="col ">
                  
                  <a href="https://github.com/jayrsanmocte/doggy1" target="_blank" rel="noopener noreferrer" >
-                   <i className=" fab fa-github fa-3x " ></i></a> &nbsp;  &nbsp; &nbsp; 
+                   <i className=" fab fa-github fa-3x " ></i></a> &nbsp; &nbsp; &nbsp; 
                    <a href="https://doggy-doggy-fjiwpb9h3-mcdha.vercel.app/" target="_blank" rel="noopener noreferrer">
                <i class="fab fas fa-up-right-from-square fa-3x" ></i>
                </a>  
