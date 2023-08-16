@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Somethings from './Somethings';
+import { Element } from 'react-scroll';
 
 
 
@@ -43,9 +44,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <About />
+      <Element name="about-section">
+        <About />
+      </Element>
+     
       <div className="paddings"></div>
-      <Somethings />
+      <Element name="project">
+        <Somethings />
+      </Element>
     </>
   );
 };

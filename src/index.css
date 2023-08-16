@@ -274,7 +274,7 @@ color:#64fedb;
 
 .line2 {
     width: 80%;
-    height: 45%;
+    height: 30%;
     background-color: #102241;
     transform: translatex(-40%);
     z-index: 99 !important ;
@@ -328,6 +328,10 @@ color:#64fedb;
     transition: background-color 0.s ease; 
   }
   
+
+ 
+  
+
   .scrollable-image:hover .image-overlay {
     background-color: transparent; 
   }
@@ -351,4 +355,17 @@ color:#64fedb;
 
 .padder {
   padding-top :10%
+}
+
+.logo4{
+  width: 100px;
+  height: 100px;
+}
+
+.nav-link {
+cursor: pointer;
+}
+.navbar {
+  --mdb-navbar-box-shadow:none;
+
 }
