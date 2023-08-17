@@ -5,11 +5,14 @@
 
 html,body {
   overflow-x: hidden;
+  background-color:#0a192f;
+  ;
 }
 
 .content {
-  background-color: #0a192f;
+  background-color:#0a192f;
   margin-bottom: 20%;
+  margin-top: 10%;
 }
 
 .hero-text{
@@ -135,18 +138,32 @@ color: #ccd7f7;
 }
 
 .navbar {
-background-color: #0a192f;
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  --mdb-navbar-box-shadow: none; /* Assuming this custom property affects the box shadow */
+
 }
 
+
+.zdex{
+  z-index: 99;
+}
 .nav-link {
 color: #ccd7f7;
 }
 
 .nav-link:hover {
 color:#64fedb;
-
 }
 
+.nav-link2 {
+  color:#64fedb;
+ 
+}
+
+.nav-link2:hover {
+  color:#ffffff;
+  }
+  
 .logo1 {
 
   width: 25%;
@@ -159,6 +176,7 @@ color:#64fedb;
   width: 30%;
   height: 20%;
 }
+
 
 .imageabout{
   width: 40%;
@@ -364,8 +382,4 @@ color:#64fedb;
 
 .nav-link {
 cursor: pointer;
-}
-.navbar {
-  --mdb-navbar-box-shadow:none;
-
 }

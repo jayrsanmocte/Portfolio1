@@ -5,7 +5,7 @@ const About = () => {
 
   return (
     <div data-aos="fade-down">
-    <div className="container about colorwhite">
+    <div className="container about colorwhite zdex">
      
         <div className="row">
         <div className="container row align-items-center ">

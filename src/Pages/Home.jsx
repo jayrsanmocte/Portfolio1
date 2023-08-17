@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import About from './About';
 import Somethings from './Somethings';
 import { Element } from 'react-scroll';
@@ -13,6 +13,7 @@ const Home = () => {
       '_blank'
     );
   };
+  
   
   return (
     <>
@@ -44,6 +45,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+  
       <Element name="about-section">
         <About />
       </Element>
