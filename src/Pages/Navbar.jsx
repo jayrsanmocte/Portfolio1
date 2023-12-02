@@ -53,7 +53,7 @@ const Navbar = () => {
              
             </li>
             <li className="nav-item mt-3">
-            < a href="/Jayrsanmocte2023.pdf1" download className="download-button nav-link">
+            < a href="" download className="download-button nav-link">
         Download my CV
       </a>
       </li>
